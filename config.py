@@ -19,5 +19,7 @@ class Config:
     MAIL_USERNAME = os.getenv("MAIL_USERNAME")
     MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
     MAIL_DEFAULT_SENDER = os.getenv("MAIL_DEFAULT_SENDER")
+    HR_NOTIFY_EMAIL = os.getenv("HR_NOTIFY_EMAIL", "shubhayankar@gmail.com")
 
     FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:3000")
+    
